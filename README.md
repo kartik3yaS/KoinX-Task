@@ -11,7 +11,7 @@ You can access the deployed application at the following URL:
 ### Deployed API Base URL
 - [https://koinx-task-mz3r.onrender.com](https://koinx-task-mz3r.onrender.com)
 
-### Sample Endpoints:
+### Sample Endpoints: (It may take some time for result to come as i am using free version of Render)
 
 1. **Get Cryptocurrency Stats**  
    Fetch the latest stats (price, market cap, 24h change) for a specific cryptocurrency:
