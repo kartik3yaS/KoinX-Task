@@ -9,7 +9,7 @@ This is a server-side application built using **Node.js** and **MongoDB**. It fe
 You can access the deployed application at the following URL:
 
 ### Deployed API Base URL
-- [https://koinx-task-aazv.onrender.com](https://koinx-task-aazv.onrender.com)
+- [https://koinx-task-aazv.onrender.com](koinx-task-aazv.onrender.com)
 
 ### Sample Endpoints: (It may take some time for result to come as i am using free version of Render)
 
