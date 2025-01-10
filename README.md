@@ -4,6 +4,22 @@
 
 This is a server-side application built using **Node.js** and **MongoDB**. It fetches cryptocurrency data (Bitcoin, Ethereum, and Matic) every 2 hours and stores it in a MongoDB database. It also exposes two APIs: one to retrieve the latest data of a cryptocurrency and another to calculate the standard deviation of the price for the last 100 records stored in the database.
 
+## Deployed Application
+
+You can access the deployed application at the following URL:
+
+### Deployed API Base URL
+- [https://koinx-task-mz3r.onrender.com](https://koinx-task-mz3r.onrender.com)
+
+### Sample Endpoints:
+
+1. **Get Cryptocurrency Stats**  
+   Fetch the latest stats (price, market cap, 24h change) for a specific cryptocurrency:
+   ```http
+   GET https://koinx-task-mz3r.onrender.com/api/stats?coin=ethereum
+
+2. There are few other endpoints created as said in task which also can be accessed.
+
 ## Features
 
 - **Background Job**: Fetches real-time cryptocurrency data every 2 hours using the CoinGecko API and stores it in the database.
